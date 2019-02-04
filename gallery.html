@@ -3,10 +3,11 @@
 <head>
 	<title>Image Gallery</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="gallery.css">
 </head>
 
 <body>
-	<nav class="navbar navbar-inverse"> <!-- navbar-inverse makes the navbar dark with light text. -->
+	<nav class="navbar navbar-inverse navbar-fixed-top"> <!-- navbar-inverse makes the navbar dark with light text. navbar-fixed-top keeps the navbar from scrolling with the rest of the page. -->
 		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
@@ -15,7 +16,7 @@
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>
 			    </button>
-				<a href="#" class="navbar-brand">Images</a>
+				<a href="#" class="navbar-brand"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> Images</a>
 			</div>
 			<div class="collapse navbar-collapse" id="bs-nav-demo">
 				<ul class="nav navbar-nav">
@@ -32,7 +33,7 @@
 
 	<div class="container">
 		<div class="jumbotron">
-			<h1>The Image Gallery</h1>
+			<h1><span class="glyphicon glyphicon-camera" aria-hidden="true"></span> The Image Gallery</h1> <!-- putting a space between the end span tag and The in The Image Gallery will create a space between the camera glyphicon and The. -->
 			<p>Some images that people have taken.</p>
 		</div>
 
